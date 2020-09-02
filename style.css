@@ -1,0 +1,178 @@
+*{
+	background:#dfb498;
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial , Sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	padding:40px;
+	color: #333;
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizelegibility;
+}
+h1{
+	font-weight: bold;
+	font-style:italic;
+	padding:30px 0;
+	margin: 10px 0;
+	font-family: courier new;
+}
+h1{
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+}
+#container{
+	
+	margin: 0 auto;
+}
+
+header nav ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	display:block;
+	line-height: 200px;
+}
+
+header nav ul li{
+	display: inline-block;
+	padding:0 10px;
+	margin:0 30px;
+}
+
+header nav ul li a{
+	color:#3b3a3b;
+	font-size: 32px;
+	font-weight:normal;
+	text-decoration: none; 
+}
+
+header nav ul li a:link{
+	color:#3b3a3b;
+	font-size: 32px;
+	font-weight:normal; 
+}
+
+header nav ul li a:hover{
+	color:#3b3a3b;
+	font-size: 32px;
+	font-weight:bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: url('./house.png') top center no-repeat;
+	padding-top: 89px;
+}
+
+header nav ul li#logo a{
+	display: block;
+	width:200px;
+	height: 200px;
+	background: url('./heading.png') center center no-repeat;
+	text-indent: -999999px;
+}
+
+
+
+h1{
+	background:#fff1e6;
+	opacity: 0.6;
+	border-top: double 5px #d4926a;
+	border-bottom: double 5px #d4926a;
+	
+}
+#about-us{
+	text-align: justify;
+	margin: 15px 0 15px 300px;
+	padding:20px;
+	width: 350px;
+	font-family:cursive;
+	font-style: italic;
+	font-size: 16px;
+}
+
+
+img{
+	border-radius: 8px;
+
+}
+
+
+hr{
+	border:none;
+	height: 80px;
+	width: 350px;
+	margin:15px auto;
+	background: url('./design.png') center center no-repeat ;
+}
+#footer-main{
+		width: 800px;
+		float: left;
+
+}
+#feature-image{
+	width:350px;
+	float:left;
+	margin: 30px 20px;
+	padding:10px 25px;
+}
+
+#about-us{
+	float:left;
+}
+
+hr{
+	border:none;
+	height: 80px;
+	width: 350px;
+	margin:15px auto ;
+	background: url('./design.png') center center no-repeat ;
+	float:center;
+}
+
+#container hr{
+	border:none;
+	height: 80px;
+	width: 350px;
+	margin:15px auto ;
+	background: url('./design.png') center center no-repeat ;
+	float:center;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear:both;
+	height: 0;
+}
+
+
+
+#copy p{
+	float:center;
+	background: #fff6ea url('./background.png') top left repeat;
+	color:#3b3a3b;
+	padding:90px 0 3px 0;
+	margin-top:40px;
+	font-family: cursive;
+
+}
+#copy p strong{
+	background: #fff6ea url('./background.png') top left repeat;
+	font-style: italic;
+}
+#contact.email p {
+	background: #fff6ea url('./background.png') top left repeat;
+	font-style: italic;
+	margin:0;
+	padding:0 0 90px 0;
+
+}
+#contact.email p a{
+	background:#fff6ea url('./background.png') top left repeat;
+	color:#714e36; 
+}

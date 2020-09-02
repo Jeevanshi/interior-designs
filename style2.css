@@ -1,0 +1,155 @@
+/* Page background: */
+*{
+	background: #fff6ea;
+}
+
+#container{
+	width:1200px;
+	padding:0;
+	margin: 30px auto;
+	border-top: solid 60px #dfb498;
+
+
+}
+
+body{
+    background: #fff8f4 url('./room-bg.png');
+    margin:0 150px;
+
+}
+
+header nav ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	display:block;
+	line-height: 200pxpx;
+}
+header nav ul{
+
+	background: #fff8f4 url('./room-bg.png');
+}
+header nav ul li{
+	display: inline-block;
+	padding:100px 33px 10px 33px;
+	margin:0 30px;
+	background: #fff8f4 url('./room-bg.png');
+
+}
+
+header nav ul li a{
+	color:#3b3a3b;
+	font-size: 32px;
+	font-weight:normal;
+	text-decoration: none;
+	background: #fff8f4 url('./room-bg.png'); 
+}
+
+header nav ul li a:link{
+	color:#3b3a3b;
+	font-size: 32px;
+	font-weight:normal; 
+}
+
+header nav ul li a:hover{
+	color:#3b3a3b;
+	font-size: 32px;
+	font-weight:bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: url('./room-pop.png') top center no-repeat;
+	padding-top: 89px;
+}
+
+
+
+
+#header h1 {
+	background: #fff8f4 url('./room-bg.png');
+	margin:0;
+	padding:25px 60px 20px 60px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 64px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.content p{
+	background: #fff8f4 url('./room-bg.png');
+	float:center;
+	font-size: 16px;
+	text-align: center;
+	font-family: cursive;
+	font-style: italic;
+	margin:0 ;
+	padding-bottom: 25px;
+
+}
+.content h2{
+	background: #fff8f4 url('./room-bg.png');
+	float:center;
+	font-size: 40px;
+	text-align: center;
+	font-family: cursive;
+	font-style: italic;
+	margin:0 ;
+	padding:30px 0 30px 0;
+	color: #a8a2a2;
+}
+hr{
+	background: url('./room-hr.png') center center no-repeat;
+	float: center;
+	border:none;
+	height:70px;
+	width:1000px;
+	margin:0;
+	padding: 25px 100px 15px 100px;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear:both;
+	height: 0;
+}
+
+
+h3{
+	background: #fff8f4 url('./room-bg.png');
+	font-size:55px;
+	font-family: cursive;
+	font-style: italic;
+	font-weight: bold;
+	text-align: justify;
+	margin:0;
+	margin-bottom: 0;
+	padding:30px 0 0 450px ;
+	border-bottom: double 10px black;
+
+}
+
+
+img{
+
+	background: #fff8f4 url('./room-bg.png');
+	border-radius: 8px;
+}
+header nav ul li p{
+	padding:0 25px 25px 25px;
+	margin-top: 0;
+	background: #fff8f4 url('./room-bg.png');
+	font-family: cursive;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+#bottom{
+	width:1200px;
+	border-bottom: solid 60px #dfb498;
+	margin: 70px 0 30px 0;
+
+}
